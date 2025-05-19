@@ -1,0 +1,14 @@
+{
+  "name": "serge-fw-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples/"
+  },
+  "workspaces": ["packages/runtime"],
+  "keywords": ["framework", "example"],
+  "author": "Sergey Golovkov",
+  "license": "ISC",
+  "description": "A project to learn how to write а frontend framework",
+  "private" :"true"
+}
